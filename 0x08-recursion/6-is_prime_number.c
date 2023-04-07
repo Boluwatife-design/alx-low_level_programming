@@ -1,5 +1,7 @@
 #include "main.h"
 
+int actual_prime(int n, int i);
+
 /**
  * is_prime_number-returns 1 if integer is a prime number,else return 0
  * @n: Represent number
@@ -24,4 +26,5 @@ int actual_prime(int n, int i)
 	if (n % i == 0 && i > 0)
 		return (0);
 	return (actual_prime(n, i - 1));
+
 }
