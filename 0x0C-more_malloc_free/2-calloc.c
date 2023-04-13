@@ -4,13 +4,13 @@
 #include <string.h>
 
 /**
- * *_calloc-function that allocates memory for an array
+ * *_memset - fills memory with a constant byte
  * @s: size
  * @b: char to copy
  * @n: number of times to copy b
  * Return: pointer to the allocated memory
  */
-void *_calloc(unsigned int nmemb, unsigned int size)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
