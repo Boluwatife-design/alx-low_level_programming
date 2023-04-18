@@ -6,8 +6,6 @@
  * print_dog-function that print a struct dog
  * @d:print struct dog
  */
-void print_dog(struct dog *d)
-{
  void print_dog(struct dog *d)
 {
 	if (d == NULL)
