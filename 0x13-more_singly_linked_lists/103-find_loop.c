@@ -8,7 +8,7 @@
  * @head: pointer to linked list
  * Return: address of  node where loop starts,or NULL if there is no loop
  */
-listint_t *find_listint_loop(listint_t *head);
+listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *slow = head;
 	listint_t *fast = head;
